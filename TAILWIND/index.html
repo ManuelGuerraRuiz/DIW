@@ -1,37 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Tailwind</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu Tailwind</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
 </head>
+
 <body>
   <nav class="bg-black shadow-lg">
-    <div class="container mx-auto w-11/12 flex">
-      <div class="flex-1 mr-5 ml-5">
-        <a href="#" class="text-yellow-400 text-3xl font-bold p-3">MGR</a>
+    <div class="container mx-auto w-8/12 flex">
+      <div class="flex-1 mx-auto">
+        <button class="group boton w-52 pt-0.5 pb-0.5  m-5 ml-6 text-center tracking-wider overflow-hidden transi duration-300 rounded-sm bg-azul-claro hover:text-black hover:bg-gray-400 ">
+          <span class="block float-left symbol text-3xl mt-1 ml-11 animate-spin-slow group-hover:animate-from-bellow">S</span>
+          <h3 class="block float-right text-3xl mt-1 mr-11 transition duration-100 trebu group-hover:animate-from-Right">BLOG</h3>
+        </button>
       </div>
-      <div class="flex-1 justify-end">
-        <ul class="text-white sm:self-center text-xl border-t sm:border-none">
+      <div class="flex-1 justify-end ml-11 m-4">
+        <ul class="text-white sm:self-center text-xl border-t sm:border-none m-4 ">
           <li class="sm:inline-block mr-5 ml-5 tracking-wider">
-            <a href="#" class="block transition duration-200 hover:text-blue-400 transform hover:scale-125">INICIO</a>
+            <a href="#" class="block transition duration-200 hover:text-blue-400 transform hover:scale-125 beba">INICIO</a>
           </li>
           <li class="sm:inline-block mr-5 ml-5 tracking-wider">
-            <a href="#" class="block transition duration-200 hover:text-blue-400 transform hover:scale-125">BLOG</a>
+            <a href="#" class="block transition duration-200 hover:text-blue-400 transform hover:scale-125 beba">BLOG</a>
           </li>
           <li class="sm:inline-block mr-5 ml-5 tracking-wider">
-            <a href="#" class="block transition duration-200 hover:text-blue-400 transform hover:scale-125">FORMACION</a>
+            <a href="#"
+              class="block transition duration-200 hover:text-blue-400 transform hover:scale-125 beba">FORMACION</a>
           </li>
           <li class="sm:inline-block mr-5 ml-5 tracking-wider">
-            <a href="#" class="block transition duration-200 hover:text-blue-400 transform hover:scale-125">CONTACTO</a>
+            <a href="#" class="block transition duration-200 hover:text-blue-400 transform hover:scale-125 beba">CONTACTO</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <section class="wrap wrap-content w-11/12 mx-auto ">
+    <section id="info">
 
-    
+        <!-- Inicio Banner -->
+        <div id="banner" class=" h-30 border-8 border-solid border-white shadow m-5 overflow-hidden animate-backbanner">
+            <h1 class="block w-9/12 text-white text-4xl font-normal tracking-widest m-7 animate-showtext">CURSOS DE DESARROLLO WEB</h1>
+        </div>
+        <!-- Fin Banner -->
+        <!--Inicio Tarjetas-->
+        <div id="cards">
+
+          <div class="card group float-left w-52 h-72 border border-solid border-gray-400 shadow bg-white overflow-hidden m-5 mt-10
+                      cursor-pointer transition-all duration-300 hover:bg-black">
+              <p class="symbol block w-full h-32 text-5xl leading-loose text-center m-0 transition-all duration-300 group-hover:text-7xl
+                   group-hover:text-azul-claro group-hover:animate-showicon">H</p>
+              <h2 class="category w-full h-12 text-xl font-bold text-center text-azul-oscuro transition-all duration-300 group-hover:text-white 
+                          group-hover:animate-showcategory">Desarrollo Web</h2>
+              <p class="description text-center text-azul-medio text-sm transition-all duration-300 group-hover:text-white 
+              group-hover:animate-showdescription">
+                  Aprende los principales lenguajes para desarrollar webs ¡Conviertete en un webmaster!
+              </p>
+          </div>
+
+          <div class="card group float-left w-52 h-72 border border-solid border-gray-400 shadow bg-white overflow-hidden m-5 mt-10
+                      cursor-pointer transition-all duration-300 hover:bg-black">
+              <p class="symbol block w-full h-32 text-5xl leading-loose text-center m-0 transition-all duration-300 group-hover:text-7xl
+                   group-hover:text-azul-claro group-hover:animate-showicon">_</p>
+              <h2 class="category w-full h-12 text-xl font-bold text-center text-azul-oscuro transition-all duration-300 group-hover:text-white 
+              group-hover:animate-showcategory">Sistemas operativos</h2>
+              <p class="description text-center text-azul-medio text-sm transition-all duration-300 group-hover:text-white 
+              group-hover:animate-showdescription">
+                  Aprende a administrar sisteams Linux y Windows
+              </p>
+          </div>
+
+          <div class="card group float-left w-52 h-72 border border-solid border-gray-400 shadow bg-white overflow-hidden m-5 mt-10
+                      cursor-pointer transition-all duration-300 hover:bg-black">
+              <p class="symbol block w-full h-32 text-5xl leading-loose text-center m-0 transition-all duration-300 group-hover:text-7xl
+                       group-hover:text-azul-claro group-hover:animate-showicon">S</p>
+              <h2 class="category w-full h-12 text-xl font-bold text-center text-azul-oscuro transition-all duration-300 group-hover:text-white 
+              group-hover:animate-showcategory">Hardware</h2>
+              <p class="description text-center text-azul-medio text-sm transition-all duration-300 group-hover:text-white 
+              group-hover:animate-showdescription">
+                  Conoce los entresijos del hardware
+              </p>
+          </div>
+
+          <div class="card group float-left w-52 h-72 border border-solid border-gray-400 shadow bg-white overflow-hidden m-5 mt-10
+                      cursor-pointer transition-all duration-300 hover:bg-black">
+              <p class="symbol block w-full h-32 text-5xl leading-loose text-center m-0 transition-all duration-300 group-hover:text-7xl
+                       group-hover:text-azul-claro group-hover:animate-showicon">u</p>
+              <h2 class="category w-full h-12 text-xl font-bold text-center text-azul-oscuro transition-all duration-300 group-hover:text-white 
+              group-hover:animate-showcategory">Redes e Internet</h2>
+              <p class="description text-center text-azul-medio text-sm transition-all duration-300 group-hover:text-white 
+              group-hover:animate-showdescription">
+                  Aprende a configurar y administrar redes informáticas y servidores
+              </p>
+          </div>
+
+          <div class="card group float-left w-52 h-72 border border-solid border-gray-400 shadow bg-white overflow-hidden m-5 mt-10
+                      cursor-pointer transition-all duration-300 mr-0 hover:bg-black">
+              <p class="symbol block w-full h-32 text-5xl leading-loose text-center m-0 transition-all duration-300 group-hover:text-7xl
+                       group-hover:text-azul-claro group-hover:animate-showicon">a</p>
+              <h2 class="category w-full h-12 text-xl font-bold text-center text-azul-oscuro transition-all duration-300 group-hover:text-white 
+              group-hover:animate-showcategory">Bases de datos</h2>
+              <p class="description text-center text-azul-medio text-sm transition-all duration-300 group-hover:text-white 
+                      group-hover:animate-showdescription">
+                  Aprende a montar y administrar bases de datos
+              </p>
+          </div>
+
+      </div>
+      <!--Fin Tarjetas-->
+      
+
+  </section>
+
+  <div class="clearfix float-none clear-both"></div>
+  <aside id="lateral" class="w-72 min-h-screen float-right m-5">
+
+      <h3 class="block w-auto h-11 leading-10 shadow-lateral-h3 text-3xl font-normal tracking-widest pl-3.5 mt-7 mb-3.5">BUSCAR</h3>
+      <div id="search" class="w-11/12 h-7 m-2.5 bg-white border border-solid border-gray-300 rounded shadow">
+          <form>
+              <input type="text" class="w-4/5 h-7 border-none pl-1 rounded bg-transparent text-gray-300 transition-all duration-300 focus:text-gray-500" />
+              <input type="button" value="L" class="symbol h-7 cursor-pointer text-base bg-transparent border-l border-solid border-gray-200 text-gray-500
+              pl-1.5" />
+          </form>
+      </div>
+
+      <h3 class="block w-auto h-11 leading-10 shadow-lateral-h3 text-3xl font-normal tracking-widest pl-3.5 mt-7 mb-3.5">LOGIN</h3>
+      <div id="login" class="aside-box w-10/12 h-60 m-auto mt-5 pt-0.5 bg-white shadow-md">
+          <form>
+              <label id="user" class="symbol block text-center absolute ml-3.5 mt-1.5 h-7">U</label>
+              <input type="email" class="block m-auto mt-5 w-11/12 h-7 border border-solid border-gray-200 shadow rounded pl-7 text-gray-400 focus:text-gray-500 
+              focus:shadow-inner" />
+
+              <label id="password" class="symbol block text-center absolute h-7 ml-4 mt-6 text-lg">w</label>
+              <input type="password" class="block m-auto mt-5 w-11/12 h-7 border border-solid border-gray-200 shadow rounded pl-7 text-gray-400 focus:text-gray-500 
+              focus:shadow-inner"/>
+
+              <input type="submit" value="Entrar" class="text-center w-24 h-8 mt-5 text-white border border-solid border-azul-oscuro rounded-none cursor-pointer
+              text-sm font-extralight ml-4 mb-5 transition-all duration-300 hover:shadow" />
+              <input type="reset" value="Limpiar" class="text-center w-24 h-8 mt-5 text-white border border-solid border-azul-oscuro rounded-none cursor-pointer
+              text-sm font-extralight ml-4 mb-5 transition-all duration-300 hover:shadow"/>
+
+              <a href="#" class="block text-sm no-underline ml-4 text-gray-500 hover:underline hover:text-azul-medio">Registrate aquí</a>
+              <a href="#" class="block text-sm no-underline ml-4 text-gray-500 hover:underline hover:text-azul-medio">¿Has olvidado tu contraseña?</a>
+          </form>
+      </div>
+
+      <h3 class="block w-auto h-11 leading-10 shadow-lateral-h3 text-3xl font-normal tracking-widest pl-3.5 mt-7 mb-3.5">REDES SOCIALES</h3>
+      <div id="social" class="aside-box w-10/12 m-auto mt-5 pt-0.5 bg-white shadow-md h-48 ">
+          <div class="twitter group">
+              <a href="#" class="symbol block text-gray-600 no-underline text-3xl ml-5 mt-2.5 mb-5">t</a>
+              <p class="overlay block h-5 font-bold tracking-wider border-2 border-solid border-white shadow bg-gris-claro absolute p-1 ml-16 opacity-0
+              transition-all duration-300 group-hover:opacity-100">
+                  Twitter
+              </p>
+          </div>
+          <div class="facebook group">
+              <a href="#" class="symbol block text-gray-600 no-underline text-3xl ml-5 mt-2.5 mb-5">f</a>
+              <p class="overlay block h-5 font-bold tracking-wider border-2 border-solid border-white shadow bg-gris-claro absolute p-1 ml-16 opacity-0
+              transition-all duration-300 group-hover:opacity-100">
+                  Facebook
+              </p>
+          </div>
+          <div class="youtube group">
+              <a href="#" class="symbol block text-gray-600 no-underline text-3xl ml-5 mt-2.5 mb-5">y</a>
+              <p class="overlay block h-5 font-bold tracking-wider border-2 border-solid border-white shadow bg-gris-claro absolute p-1 ml-16 opacity-0
+              transition-all duration-300 group-hover:opacity-100">
+                  Youtube
+              </p>
+          </div>
+      </div>
+
+      <h3 class="block w-auto h-11 leading-10 shadow-lateral-h3 text-3xl font-normal tracking-widest pl-3.5 mt-7 mb-3.5">PATROCINADORES</h3>
+      <div id="sponsors" class="aside-box w-10/12 m-auto mt-5 pt-0.5 bg-white shadow-md h-48">
+
+      </div>
+
+  </aside>    
+
+  <section id="articles" class="w-8/12 float-left">
+      <h2 class="block w-full h-16 text-center text-4xl font-normal tracking-widest shadow-lateral-h3 m-auto mt-5 mb-3.5">Últimos artículos</h2>
+      <div class="clearfix float-none clear-both" class="float-none clear-both"></div>
+      <article class="w-11/12 border border-solid border-gray-100 m-10 mx-auto p-2.5 bg-white text-black shadow">
+          <div class="data">
+              <span>Fecha: 12 dic</span>
+              <span>Categoría: Pruebas</span>
+          </div>
+          <h4>
+              <a href="#">Titulo del artículo</a>
+          </h4>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat rhoncus libero, vitae
+              finibus odio lacinia ut. Nullam venenatis arcu sit amet magna sodales placerat. Aenean in pharetra
+              justo. Nulla vel enim tellus. Etiam ex ipsum, suscipit a tincidunt eu, dapibus vitae quam. Vivamus a
+              justo magna. Aenean suscipit ultricies auctor.
+          </p>
+      </article>
+
+      <article class="w-11/12 border border-solid border-gray-100 m-10 mx-auto p-2.5 bg-white text-black shadow">
+          <div class="data">
+              <span>Fecha: 12 dic</span>
+              <span>Categoría: Pruebas</span>
+          </div>
+          <h4>
+              <a href="#">Titulo del artículo</a>
+          </h4>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat rhoncus libero, vitae
+              finibus odio lacinia ut. Nullam venenatis arcu sit amet magna sodales placerat. Aenean in pharetra
+              justo. Nulla vel enim tellus. Etiam ex ipsum, suscipit a tincidunt eu, dapibus vitae quam. Vivamus a
+              justo magna. Aenean suscipit ultricies auctor.
+          </p>
+      </article>
+      <article class="w-11/12 border border-solid border-gray-100 m-10 mx-auto p-2.5 bg-white text-black shadow">
+          <div class="data">
+              <span>Fecha: 12 dic</span>
+              <span>Categoría: Pruebas</span>
+          </div>
+          <h4>
+              <a href="#">Titulo del artículo</a>
+          </h4>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat rhoncus libero, vitae
+              finibus odio lacinia ut. Nullam venenatis arcu sit amet magna sodales placerat. Aenean in pharetra
+              justo. Nulla vel enim tellus. Etiam ex ipsum, suscipit a tincidunt eu, dapibus vitae quam. Vivamus a
+              justo magna. Aenean suscipit ultricies auctor.
+          </p>
+      </article>
+      <article class="w-11/12 border border-solid border-gray-100 m-10 mx-auto p-2.5 bg-white text-black shadow">
+          <div class="data">
+              <span>Fecha: 12 dic</span>
+              <span>Categoría: Pruebas</span>
+          </div>
+          <h4>
+              <a href="#">Titulo del artículo</a>
+          </h4>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat rhoncus libero, vitae
+              finibus odio lacinia ut. Nullam venenatis arcu sit amet magna sodales placerat. Aenean in pharetra
+              justo. Nulla vel enim tellus. Etiam ex ipsum, suscipit a tincidunt eu, dapibus vitae quam. Vivamus a
+              justo magna. Aenean suscipit ultricies auctor.
+          </p>
+      </article>
+      <article class="w-11/12 border border-solid border-gray-100 m-10 mx-auto p-2.5 bg-white text-black shadow">
+          <div class="data">
+              <span>Fecha: 12 dic</span>
+              <span>Categoría: Pruebas</span>
+          </div>
+          <h4>
+              <a href="#">Titulo del artículo</a>
+          </h4>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat rhoncus libero, vitae
+              finibus odio lacinia ut. Nullam venenatis arcu sit amet magna sodales placerat. Aenean in pharetra
+              justo. Nulla vel enim tellus. Etiam ex ipsum, suscipit a tincidunt eu, dapibus vitae quam. Vivamus a
+              justo magna. Aenean suscipit ultricies auctor.
+          </p>
+      </article>
+      <article class="w-11/12 border border-solid border-gray-100 m-10 mx-auto p-2.5 bg-white text-black shadow">
+          <div class="data">
+              <span>Fecha: 12 dic</span>
+              <span>Categoría: Pruebas</span>
+          </div>
+          <h4>
+              <a href="#">Titulo del artículo</a>
+          </h4>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat rhoncus libero, vitae
+              finibus odio lacinia ut. Nullam venenatis arcu sit amet magna sodales placerat. Aenean in pharetra
+              justo. Nulla vel enim tellus. Etiam ex ipsum, suscipit a tincidunt eu, dapibus vitae quam. Vivamus a
+              justo magna. Aenean suscipit ultricies auctor.
+          </p>
+      </article>
+      <article id="blog" class="w-11/12 border border-solid border-gray-100 m-10 mx-auto p-2.5 bg-white text-black shadow">
+          <a href="#">Ir al blog</a>
+      </article>
+    </section>
+  </section>
+
 </body>
+
 </html>

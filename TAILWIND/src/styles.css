@@ -2,8 +2,94 @@
 @tailwind components;
 @tailwind utilities;
 
-/*@layer base {
-    body{
-        background-image: url();
+@layer base {
+    @font-face{
+        font-family: "TrebuchetMS";
+        src: url('fonts/TrebuchetMS.ttf');
+        font-weight: normal;
+        font-style: normal;
     }
-}*/
+    
+    @font-face{
+        font-family: "BebasNeue";
+        src: url('fonts/BebasNeue.otf');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face{
+    font-family: "WebSymbolsRegular";
+    src: url('../css/fonts/websymbols-regular-webfont.eot');
+    src: url('../css/fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../css/fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('../css/fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('../css/fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.symbol{
+    font-family: "WebSYmbolsRegular";
+}
+
+.beba{
+    font-family: "BebasNeue";
+}
+.trebu{
+    font-family: "TrebuchetMS";
+
+}
+#banner{
+    background: url("../img/bakbaner.png");
+    background-position: -200px -200px;
+}
+
+#banner h1{
+    font-family: 'BebasNeue';
+}
+
+.card .category{
+    font-family: "TrebuchetMS";
+}
+
+.card .description{
+    font-family: "TrebuchetMS";
+}
+
+#lateral{
+    font-family: "TrebuchetMS";
+}
+
+#lateral h3{
+    background: url('../img/pxgray.png'), white;
+    font-family: "BebasNeue";
+}
+
+#login input[type="submit"],
+#login input[type="button"],
+#login input[type="reset"],
+#login button{
+    background: linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca 100%);
+    font-family: "TrebuchetMS";
+}
+
+#social .overlay{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -52px;
+    transform: translateX(-80%);
+}
+
+#social div:hover .overlay{
+    transform: translateX(0%);
+}
+
+#articles h2{
+    line-height: 75px;
+    font-family: "BebasNeue";
+    background: url('../img/pxgray.png'), white;
+}
+
+#articles article{
+    height: auto;
+    font-family: "TrebuchetMS";
+}
+
+}
