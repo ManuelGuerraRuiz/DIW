@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face{
+        font-family: "SofiaSansExtraCondensend-Bold";
+        src: url('fonts/SofiaSansExtraCondensend-Bold.ttf');
+       
+    }
+.sofia{
+    font-family: "SofiaSansExtraCondensend-Bold";
+}
+
+
+}
