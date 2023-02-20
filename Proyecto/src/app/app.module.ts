@@ -15,6 +15,9 @@ import { AyudaPageComponent } from './pages/ayuda-page/ayuda-page.component';
 import { OlvidarComponent } from './components/olvidar/olvidar.component';
 import { OlvidarPageComponent } from './pages/olvidar-page/olvidar-page.component';
 import { FotterComponent } from './components/fotter/fotter.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { GaleriaComponent } from './components/galeria/galeria.component';
+import { FlujoComponent } from './components/flujo/flujo.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { FotterComponent } from './components/fotter/fotter.component';
     AyudaPageComponent,
     OlvidarComponent,
     OlvidarPageComponent,
-    FotterComponent
+    FotterComponent,
+    BannerComponent,
+    GaleriaComponent,
+    FlujoComponent
 
   ],
   imports: [
