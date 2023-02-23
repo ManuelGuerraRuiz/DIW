@@ -18,6 +18,7 @@ import { FotterComponent } from './components/fotter/fotter.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { GaleriaComponent } from './components/galeria/galeria.component';
 import { FlujoComponent } from './components/flujo/flujo.component';
+import { GenteComponent } from './components/gente/gente.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { FlujoComponent } from './components/flujo/flujo.component';
     FotterComponent,
     BannerComponent,
     GaleriaComponent,
-    FlujoComponent
+    FlujoComponent,
+    GenteComponent
 
   ],
   imports: [
