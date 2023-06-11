@@ -14,13 +14,15 @@
                   />
                   <h4 class="text-xl font-semibold mt-1 mb-12 pb-1">Tu equipo de ensambladores</h4>
                 </div>
-                <form action="inicio">
+                <form action="inicio" (ngSubmit)="crearUsuario()">
                   <p class="mb-4">Por favor Registrate</p>
                   <div class="mb-4">
                     <input
                       type="text"
                       class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                       placeholder="Nombre*"
+                      [(ngModel)]="name"
+                      name="name"
                       required
                     />
                   </div>
@@ -29,6 +31,8 @@
                       type="text"
                       class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                       placeholder="Apellido"
+                      [(ngModel)]="apellido"
+                      name="apellido"
                     />
                   </div>
                   <div class="mb-4">
@@ -36,6 +40,8 @@
                       type="email"
                       class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                       placeholder="Email*"
+                      [(ngModel)]="email"
+                      name="email"
                       required
                     />
                   </div>
@@ -45,6 +51,8 @@
                       class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                       id="exampleFormControlInput1"
                       placeholder="Password*"
+                      [(ngModel)]="pass"
+                      name="pass"
                       required
                     />
                   </div>
